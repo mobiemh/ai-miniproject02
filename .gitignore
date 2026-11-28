@@ -19,6 +19,6 @@ checkpoints/
 # results/
 
 # 대용량 모델·원본 데이터·임베딩 캐시
-nlp_bert_mini/weights/
-nlp_bert_mini/data/raw/
-nlp_bert_mini/outputs/cache/
+**/nlp_bert_mini/weights/
+**/nlp_bert_mini/data/raw/
+**/nlp_bert_mini/outputs/cache/
