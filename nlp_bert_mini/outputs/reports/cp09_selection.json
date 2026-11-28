@@ -1,6 +1,6 @@
 {
   "use_case": "사내 자료를 검색하면 다양한 부서에서 작성한 모든 관련 문서를 보여주는 기능",
-  "priority_metric": "recall3",
+  "priority_metric": "mrr5",
   "selected_method": "tfidf",
   "selection_reason": "tfidf 가 단어 검색에 있어서는 mrr5이 0.916 로 높았기때문입니다. 문맥 파악이 필요한 업무에서는 sbert가 나을거같습니다. 예를들면 회사 게시판에 올라오는 악플 감지기능 처럼 거친표현은 없지만 내용이 나쁜 경우.",
   "validation_metrics": [
