@@ -1,6 +1,6 @@
 {
   "selected_method": "tfidf",
-  "priority_metric": "mrr5",
+  "priority_metric": "recall3",
   "validation_metrics": {
     "hit1": 0.8833333333333333,
     "recall3": 0.9666666666666667,
